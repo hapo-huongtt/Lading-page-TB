@@ -149,6 +149,12 @@ $padding: 50px 15px 50px 15px;
       family: 'Roboto-Light';
     }
   }
+  .img-main {
+    @include measure(356px,226px);
+  }
+  .daily-img {
+    margin-left: -10px;
+  }
   .slogan {
     @extend %slogan;
   }
@@ -228,9 +234,6 @@ $padding: 50px 15px 50px 15px;
   .icon-text {
     padding-top: 20px;
   }
-  .icon-text {
-    padding-top: 27px;
-  }
   .check-box {
     font-size: 18px;
     color: #8BC34A;
@@ -259,10 +262,6 @@ $padding: 50px 15px 50px 15px;
       family: 'Roboto-Light';
     }
   }
-  .our-conttent {
-     text-align: center;
-    padding-top: 20px;
-  }
   .picture-name {
     color: #ffffff;
     @include measure(65px, 49px);
@@ -272,9 +271,6 @@ $padding: 50px 15px 50px 15px;
       size: 13px;
       family: 'Roboto-Regular';
     }
-  }
-  .nt {
-    text-align: right;
   }
   .user-picture {
     text-align: center;
@@ -295,7 +291,7 @@ $padding: 50px 15px 50px 15px;
     background-color: #ffffff;
   }
   .next-slide {
-    border: 0.5px solid #C0C0C0;
+    border: 0.5px solid #ffffff;
     border-radius: 100%;
     @include measure (10px,10px);
   }
