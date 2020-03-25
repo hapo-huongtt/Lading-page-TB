@@ -1,0 +1,270 @@
+body {
+  width: 100%;
+  font-family: 'roboto';
+  overflow-x: hidden;
+  margin: 0; }
+
+.container {
+  max-width: 768px; }
+
+.flex {
+  display: flex; }
+
+.header .sign-header, .header .icon-name, .main .icon-title, .main .write-daily, .main .ti-icon, .main .number {
+  justify-content: center;
+  align-items: center; }
+
+.header .slogan, .main .slogan {
+  font-size: 15px;
+  font-family: 'Roboto-Italic';
+  color: #283238;
+  text-align: center;
+  padding-top: 15px; }
+
+.header .button, .main .button {
+  border-radius: 100px;
+  border: 1px;
+  width: 144px;
+  height: 45px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #429321;
+  background-image: linear-gradient(to right, #429321, #B4EC51);
+  text-align: center; }
+
+.header {
+  background-image: url(./banner-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px; }
+  .header .top-header {
+    padding-top: 20px; }
+  .header .about-header {
+    text-align: right;
+    text-transform: uppercase;
+    color: #39474E;
+    padding-top: 8px;
+    font-size: 12px;
+    font-family: 'Roboto-Regular'; }
+  .header .sign-header {
+    border: 2px solid #8BC34A;
+    border-radius: 100px;
+    width: 82px;
+    height: 36px;
+    color: #8BC34A;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 12px;
+    font-family: 'Roboto-Regular'; }
+  .header .logo-header {
+    text-align: center;
+    padding-top: 40px; }
+    .header .logo-header .logo {
+      width: 144px;
+      height: 43px; }
+  .header .icon-header {
+    font-size: 24px;
+    padding-top: 20px; }
+  .header .gift {
+    text-align: right; }
+  .header .alarm-clock {
+    text-align: center; }
+  .header .icon-name {
+    font-family: 'Roboto-Light';
+    font-size: 24px; }
+  .header .icon-name > div {
+    text-align: center;
+    color: #283238;
+    width: 21%; }
+  .header .button-header {
+    padding-top: 20px;
+    text-align: center; }
+
+.main {
+  width: 100%; }
+  .main .section-main {
+    padding: 50px 15px 50px 15px;
+    box-shadow: 0px 10px 10px -5px #CCCCCC; }
+  .main .icon-title .bookmark {
+    font-size: 30px;
+    text-align: right;
+    padding-top: 8px;
+    color: #444444; }
+  .main .icon-title > div {
+    margin: 0 13px 0 13px; }
+  .main span {
+    color: #444444;
+    font-size: 36px;
+    font-family: 'Roboto-Light'; }
+  .main .txt-img .pragraph-text {
+    text-align: justify;
+    line-height: 21px;
+    color: #283238;
+    font-size: 14px;
+    font-family: 'Roboto-Regular'; }
+  .main .button-main {
+    padding-top: 30px;
+    text-align: center; }
+  .main .part-main {
+    padding: 50px 15px 50px 15px; }
+  .main .symbol-main {
+    width: 100%;
+    height: 288px;
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51); }
+  .main .part-symbol {
+    padding: 0px 15px 0px 15px; }
+  .main .img-symbol {
+    height: 322px;
+    justify-content: space-between; }
+  .main .write-daily {
+    flex-direction: column;
+    text-align: center; }
+  .main .ti-icon {
+    border: 2.5px solid white;
+    border-radius: 100%;
+    color: white;
+    font-size: 36px;
+    width: 107px;
+    height: 107px;
+    text-align: center;
+    padding-top: 16px; }
+  .main .number {
+    background-color: #7CB342;
+    border: 2.5px solid white;
+    border-radius: 100%;
+    width: 43px;
+    height: 43px;
+    margin-top: -30px;
+    font-size: 24px;
+    color: white; }
+  .main .symbol-name {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    height: 42px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 5px; }
+  .main .member-main {
+    padding: 50px 15px 50px 15px; }
+  .main .txt-member {
+    padding-top: 30px; }
+  .main .icon-text {
+    padding-top: 20px; }
+  .main .icon-text {
+    padding-top: 27px; }
+  .main .check-box {
+    font-size: 18px;
+    color: #8BC34A; }
+  .main .text-member {
+    text-align: justify;
+    font-family: 'Roboto-Regular';
+    font-size: 14px; }
+  .main .customer-main {
+    padding: 50px 15px 50px 15px;
+    box-shadow: 0px -10px 10px -5px #CCCCCC; }
+  .main .our-customer {
+    background-image: url(./user-banner.png);
+    height: 544px;
+    padding: 50px 0 50px 0; }
+  .main .top-our {
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Roboto-Light'; }
+  .main .our-conttent {
+    text-align: center;
+    padding-top: 20px; }
+  .main .picture-name {
+    color: #ffffff;
+    width: 65px;
+    height: 49px;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 13px;
+    font-family: 'Roboto-Regular'; }
+  .main .nt {
+    text-align: right; }
+  .main .user-picture {
+    text-align: center; }
+  .main .customer-slide {
+    justify-content: center;
+    padding-top: 12px; }
+  .main .customer-slide > div {
+    text-align: center;
+    margin: 10px; }
+  .main .img-slide {
+    border: 0.5px solid #ffffff;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff; }
+  .main .next-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px; }
+  .main .icon-left {
+    font-size: 64px;
+    color: #5b5b5c;
+    text-align: right; }
+  .main .text-ourcustomer {
+    color: #C0C0C0;
+    text-align: justify;
+    width: 570px;
+    height: 120px;
+    margin: -30px 0 0 -30px;
+    font-size: 18px;
+    font-family: 'Roboto-Light'; }
+  .main .icon-right {
+    font-size: 64px;
+    color: #5b5b5c;
+    margin: -50px 0 0 0px; }
+
+.footer {
+  width: 100%;
+  height: 179px;
+  background-color: #39474E;
+  font-family: 'Roboto-Medium'; }
+  .footer .part-footer {
+    padding: 50px 15px 50px 15px; }
+  .footer .img-hapo {
+    width: 90px;
+    height: 20px; }
+  .footer .top-footer {
+    text-transform: uppercase;
+    color: #8BC34A;
+    padding-top: 5px;
+    font-size: 11px;
+    font-family: 'Roboto-Medium'; }
+  .footer .coppy-right {
+    color: #ffffff;
+    padding-top: 35px;
+    font-size: 10px;
+    font-family: 'Roboto-Medium'; }
+  .footer .contact-about {
+    line-height: 20px;
+    color: #ffffff;
+    width: 90px;
+    height: 30px;
+    font-size: 10px;
+    font-family: 'Roboto-Medium'; }
+  .footer .contact-us {
+    line-height: 30px;
+    color: #ffffff;
+    width: 75px;
+    height: 30px;
+    font-size: 10px;
+    font-family: 'Roboto-Medium'; }
+  .footer .icon-footer {
+    color: #8BC34A;
+    font-size: 13px;
+    padding-top: 35px;
+    margin-left: -25px; }
+
+/*# sourceMappingURL=style.css.map */
